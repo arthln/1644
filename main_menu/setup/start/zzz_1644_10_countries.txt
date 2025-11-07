@@ -7,7 +7,7 @@ countries = {
 			own_control_core = {
 				# 北中国区域（`north_china_region`）
 				# beiping_area ─ 京师顺天与永平、遵化等京畿要地
-				baoan_baoan huailai longqing taihangshan1
+				baoan_baoan huailai  taihangshan1 # longqing
 				huaian yunzhou dushikou xuanping longmen_chicheng shunsheng xuande
 				# yijin dacheng wenan
 				# changping huairou miyun shunyi
@@ -20,21 +20,7 @@ countries = {
 
 
 
-				# yannan_area ─ 冀南平原与保定重镇
-				gecheng dingxing gaoyang_baoding xincheng_baoding guixin
-				qingyuan_baoding wanzhou_baoding tangxian
-				qingchi liguo nanpi qingyun yanshan
-				anxi_dingzhou xinle quyang xingtang
-				hejian jiaohe leshou renqiu suning
-				tiaoxian dongguang fucheng_hejian ningjin wuqiao gucheng_jingzhou
-				xindu_jizhou nangong zaoqiang
-				puyin boye shulu
-				huichuan jinghai dagu zhigu
-				jingan_shenzhou anping hengshui wuyi
-				xingtai renxian julu neiqiu shahe
-				yixian_yizhou ansu laishui mancheng
-				pingji ningjin_zhaozhou lincheng longping_zhaozhou zanhuang
-				zhending fuping gaocheng yuanshi_zhending huolu gucheng_zhending lingshou pingshan_zhending jingxing wuji
+				
 
 				# hebei_area ─ 大名、邯郸、怀庆等卫所区
 				fuyang shexian_cizhou wuan
@@ -44,6 +30,9 @@ countries = {
 				puyang changyuan dongming qingfeng
 				jixian huixian qizhou xinxiang
 				anyang linzhou linzhang tangyin
+
+				zhending fuping gaocheng yuanshi_zhending huolu gucheng_zhending lingshou pingshan_zhending jingxing wuji
+
 
 				# henan_area ─ 洛阳、开封与南阳等豫中腹地
 				wanqiu dancheng xiangcheng shangshui nandun xihua
@@ -63,32 +52,8 @@ countries = {
 				fangcheng yexian wuyang
 				guancheng_zhengzhou mixian xingyang yanjin yuanyang yangdi zhongmu
 
-				# haiyou_area ─ 登莱青密沿海营镇
-				changshan_islands_wastelands penglai dasong jiangshan_laiyang laiyang huangxian qixia zhaoyuan
-				jiaoxi fushan_jiaozhou jimo lingshanwei
-				juxian yiyuan gegou mengyin rizhao shizilu yishui
-				yexian_laizhou changyi gaomi luxiang jiaoshui beihai
-				zhucheng anqiu changle wulian
-				muping chengshan fushan_muping rushan weihai wendeng
-				yidu_qingzhou boxing lean linqu shouguang zichuan
 
-				# shandong_area ─ 济南兖州与运河、黄河平原
-				bohai zhanhua lijin wudi
-				chuqiu chengwu dingtao jiyin
-				lingzhou_dezhou deping ande linyi_jinan pingyuan_jinan qihe yucheng
-				liaocheng chiping guancheng tangyi
-				xucheng shouzhang pingyin donge wenshang yanggu_yanzhou dongping_lake
-				gaotang enzhou xiajin
-				licheng jiyang zhangqiu xincheng_jinan gaoyuan_jinan qidong zouping
-				rencheng jiaxiang juye yuncheng
-				linqing guantao qiuxian
-				juancheng chaocheng fanxian shenxian
-				shansu yutai jinxiang
-				fengfu yanshen changqing laiwu feicheng xintai
-				tengxian tengdong shagou yizhou_tengzhou zouxian weishan_lake
-				yanci laoling shanghe yangxin
-				ziyang ningyang qufu sishui
-				linyi licheng_yizhou feixian lanling tancheng
+
 
 				# datong_area ─ 大同、河套与朔方屏障
 				datong_datong xuanning huairen tiancheng baideng yulin_datong yunchuan taihangshan3
@@ -166,19 +131,18 @@ countries = {
 				# hubei_area ─ 鄂中水陆要冲
 				zhongxiang fengle shipai fushui jingshan
 				anlu xiaogan yingcheng yunmeng
-				fangling banqiao baokang baihekou bomoping zhushan zhuxi fengxi
 				zigui xingshan xinhua_guizhou badong jingshan_mountains
 				hanyang hanchuan
-				huanggang qichun luotian huangan huangpi huangmei macheng qishui guangji
 				changlin dangyang shayang
 				jiangling gongan songzi qianjiang jianli shishou zhijiang
-				yun wudang huanglong shangjin yunxi
 				yusha jingling xindi hong_lake
 				suixian gaocheng_suizhou yingshan tangcheng meiqiu
-				jiangxia wuchang jinkou tongcheng_wuchang puqi chongyang xianning jiayu liangzi_lake
 				xiangyang gucheng jinxiangping guanghua lutoudian nanzhang fancheng yicheng zaoyang
-				yongxing_xingguo daye tongshan
 				yiling changyang yuanan jinzhuping yidu
+
+				qiaoxian
+
+
 			}
 			include = "chinese_monarchy"
 			include = "expl_silk_road_west"
@@ -206,7 +170,7 @@ countries = {
 
 			country_rank = rank_empire
 
-			capital = dadu
+			capital = jingzhao
 			flag = "CSH"
 			country_name = "CSH"
 		}
@@ -321,7 +285,49 @@ countries = {
 
 				lulong changli funing longwangmiao qianan sanchakou
 
+				longqing
+				# yannan_area ─ 冀南平原与保定重镇
+				gecheng dingxing gaoyang_baoding xincheng_baoding guixin
+				qingyuan_baoding wanzhou_baoding tangxian
+				qingchi liguo nanpi qingyun yanshan
+				anxi_dingzhou xinle quyang xingtang
+				hejian jiaohe leshou renqiu suning
+				tiaoxian dongguang fucheng_hejian ningjin wuqiao gucheng_jingzhou
+				xindu_jizhou nangong zaoqiang
+				puyin boye shulu
+				huichuan jinghai dagu zhigu
+				jingan_shenzhou anping hengshui wuyi
+				xingtai renxian julu neiqiu shahe
+				yixian_yizhou ansu laishui mancheng
+				pingji ningjin_zhaozhou lincheng longping_zhaozhou zanhuang
 
+				# shandong_area ─ 济南兖州与运河、黄河平原
+				bohai zhanhua lijin wudi
+				chuqiu chengwu dingtao jiyin
+				lingzhou_dezhou deping ande linyi_jinan pingyuan_jinan qihe yucheng
+				liaocheng chiping guancheng tangyi
+				xucheng shouzhang pingyin donge wenshang yanggu_yanzhou dongping_lake
+				gaotang enzhou xiajin
+				licheng jiyang zhangqiu xincheng_jinan gaoyuan_jinan qidong zouping
+				rencheng jiaxiang juye yuncheng
+				linqing guantao qiuxian
+				juancheng chaocheng fanxian shenxian
+				shansu yutai jinxiang
+				fengfu yanshen changqing laiwu feicheng xintai
+				tengxian tengdong shagou yizhou_tengzhou zouxian weishan_lake
+				yanci laoling shanghe yangxin
+				ziyang ningyang qufu sishui
+				linyi licheng_yizhou feixian lanling tancheng
+
+				# haiyou_area ─ 登莱青密沿海营镇
+				changshan_islands_wastelands penglai dasong jiangshan_laiyang laiyang huangxian qixia zhaoyuan
+				jiaoxi fushan_jiaozhou jimo lingshanwei
+				juxian yiyuan gegou mengyin rizhao shizilu yishui
+				yexian_laizhou changyi gaomi luxiang jiaoshui beihai
+				zhucheng anqiu changle wulian
+				muping chengshan fushan_muping rushan weihai wendeng
+				yidu_qingzhou boxing lean linqu shouguang zichuan
+				
 				# 华东（`east_china_region`）
 				# jiangnan_area ─ 江南京畿与苏松常镇
 				wujin jiangyin wuxi yixing ge_lake tai_lake
@@ -342,12 +348,11 @@ countries = {
 				xiapi suining_pizhou suqian xinyi luoma_lake
 				hailing xixi rugao
 				jinghai_tongzhou juegang haimen
-				xuzhou dangshan fengxian xiaoxian peixian
 				jiangdu taixing yangzi
 
 				# huaixi_area ─ 淮西
 				huaining qianshan susong taihu tongcheng_anqing wangjiang zongyang longgan_lake
-				qiaoxian chengfu mengcheng
+				 chengfu mengcheng
 				qingliu_chuzhou zhaoxin quanjiao laian
 				zhongli dingyuan_fengyang huaiyuan
 				hezhou_he hanshan wuwei
@@ -357,6 +362,8 @@ countries = {
 				hongxian linhuai tianchang wuhe xuyi
 				suzhou_fengyang guzhen lingbi linhuan
 				yingzhou yingshui yingshang shenqiu taihe
+				xuzhou dangshan fengxian xiaoxian peixian #徐州
+
 
 				# zhejiang_area ─ 浙东浙西郡县
 				lishui daxue qingtian minghe longquan suichang qingyuan_chuzhou jinyun songyang yunhe wuyishan1
@@ -395,6 +402,8 @@ countries = {
 				youzhou chaling yongan_youzhou liling liuyang
 				baling changshou_pingjiang huarong linxiang pingjiang
 
+
+
 				# wuling_area ─ 沅澧水与湘西苗疆
 				wuling taoyuan longyang yuanjiang yuannan dongting_lake
 				yuanling chenxi huaihua xupu madi_yuanling luxi
@@ -403,6 +412,14 @@ countries = {
 				shizhou datian_shizhou lichuan rongmei wufeng sanmao zhonglu shinan wulingshan
 				yongshun_yongshun guzhang shangxi baojing wuzhai
 				luyang qianyang_yuanzhou mayang
+
+				#hubei_area
+				jiangxia wuchang jinkou tongcheng_wuchang puqi chongyang xianning jiayu liangzi_lake
+				huanggang qichun luotian huangan huangpi huangmei macheng qishui guangji
+				yongxing_xingguo daye tongshan
+				fangling banqiao baokang baihekou bomoping zhushan zhuxi fengxi
+				yun wudang huanglong shangjin yunxi
+
 
 				
 
@@ -570,6 +587,17 @@ countries = {
 				yibin fushun nanxi qingfu xuanhua
 				yandao rongjing diaomen lushan_yazhou mingshan
 				yongning gulin luojiao mangbu guihua
+
+				#川东
+				dazu rongchang yongchuan
+				baxian banan bishan qijiang jiangjin nanchuan
+				tongchuan_dazhou xinning_dazhou dongxiang_dazhou mingtong taiping
+				fuzhou_sichuan changshou_changshou wulong
+				shizhao tongliang dingyuan
+				luzhou naxi hejiang jiangan
+				youyang xiushan pengshui qianjiang_shaoqing
+				linjiang dianjiang fengdu shizhu
+				wanzhou liangshan
 			}
 			include = "chinese_monarchy"
 			include = "expl_silk_road_west"
@@ -581,7 +609,7 @@ countries = {
 			}
 			court_language = southern_mandarin_dialect
 			country_rank = rank_empire
-			capital = shangyuan
+			capital = dadu
 			flag = "MNG"
 			country_name = "MNG"
 		}
@@ -591,16 +619,10 @@ countries = {
 			own_control_core = {
 				# 四川盆地（`west_china_region`）
 				# chuandong_area ─ 重庆江东与夔州路径
-				dazu rongchang yongchuan
-				baxian banan bishan qijiang jiangjin nanchuan
-				tongchuan_dazhou xinning_dazhou dongxiang_dazhou mingtong taiping
-				fuzhou_sichuan changshou_changshou wulong
-				shizhao tongliang dingyuan
-				fengjie daning_kuizhou kaizhou liangshan wanzhou wushan jianshi yunyang dabashan1 wushan_mountains
-				luzhou naxi hejiang jiangan
-				youyang xiushan pengshui qianjiang_shaoqing
-				linjiang dianjiang fengdu shizhu
 
+				fengjie daning_kuizhou kaizhou   wushan jianshi yunyang dabashan1 wushan_mountains
+
+				
 
 			}
 			include = "chinese_monarchy"
