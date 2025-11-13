@@ -146,22 +146,15 @@ countries = {
 
 
 			}
-			include = "chinese_monarchy"
-			include = "expl_silk_road_west"
-			include = "expl_silk_road_center"
-			include = "expl_silk_road_east"
 
-			# 示例：为大顺设定开局科技等级
-			starting_technology_level = 4
+			include = "zzz_csh"
 
 			government = {
 				type = monarchy
 				ruler = chi_li_zicheng
 				heir_selection = cognatic_primogeniture
 				ruler_term = { character = chi_li_zicheng start_date = 1643.3.8 }
-				laws = {
-					medieval_levy_law = broken_weisuo
-				}
+
 			}
 			accepted_cultures = {
 				jilu_culture
@@ -185,6 +178,15 @@ countries = {
 			capital = jingzhao
 			flag = "CSH"
 			country_name = "CSH"
+
+			currency_data = {
+				gold = 2000 #国库
+				stability = 40 #稳定度
+				prestige = 50 #声望
+				government_power = 40 #正统性
+				war_exhaustion = 0 #战争疲劳
+				army_tradition = 20 #军队传统
+			}
 		}
 
 		#大清 - QNG
@@ -271,8 +273,7 @@ countries = {
 				fengzhou yinshan hebin zhenwu ningbian yunnei dongsheng wuchuan
 
 			}
-			include = "expl_manchurian_tribe"
-			include = "asia_advanced_tribe"
+			include = "zzz_qng"
 			government = {
 				type = monarchy
 				ruler = chi_shunzhi
@@ -291,7 +292,7 @@ countries = {
 					start_date = 1643.10.8
 					# end_date = 1661.2.5
 				}
-				heir_selection = cognatic_primogeniture
+				
 			}
 			accepted_cultures = {
 				solon_culture
@@ -304,12 +305,20 @@ countries = {
 				yan_culture
 				monguor_culture
 			}
+			currency_data = {
+				gold = 5000 #国库
+				stability = 60 #稳定度
+				prestige = 50 #声望
+				government_power = 60 #正统性
+				war_exhaustion = 0 #战争疲劳
+				army_tradition = 50 #军队传统
+			}
 			court_language = jurchen_language
 			country_rank = rank_empire
 			capital = shenyang
 			flag = "QNG"
 			country_name = "QNG"
-			permanent_tag = yes
+
 		}
 
 		#大明 - MNG
@@ -600,7 +609,7 @@ countries = {
 				
 				# chuanxi_area ─ 川西
 				langzhong cangxi nanbu
-				huacheng zengkou nanjiang tongjiang dabashan2
+				huacheng zengkou nanjiang tongjiang 
 				chengdu pixian shuangliu xindu jintang
 				liujiang huaying linshui qujiang_guangan yuechi dazhu
 				miangu jiachuan zhaohua
@@ -644,10 +653,7 @@ countries = {
 				linjiang dianjiang fengdu shizhu
 				wanzhou liangshan
 			}
-			include = "chinese_monarchy"
-			include = "expl_silk_road_west"
-			include = "expl_silk_road_center"
-			include = "expl_silk_road_east"
+			include = "zzz_mng"
 			government = {
 				type = monarchy
 				ruler = chi_zhu_youjian
@@ -781,19 +787,17 @@ countries = {
 
 		#大西 - CXI
 		CXI = {
+			type = army
 			own_control_core = {
 				# 四川盆地（`west_china_region`）
-				# chuandong_area ─ 重庆江东与夔州路径
+				# chuandong_area ─ 夔州
 				fengjie daning_kuizhou kaizhou   wushan jianshi yunyang  
 				# hubeo_area			
 				xinhua_guizhou badong
 				
 
 			}
-			include = "chinese_monarchy"
-			include = "expl_silk_road_west"
-			include = "expl_silk_road_center"
-			include = "expl_silk_road_east"
+			include = "zzz_csh"
 			government = {
 				type = monarchy
 				ruler = chi_zhang_xianzhong
@@ -803,8 +807,11 @@ countries = {
 					#end_date = 1647.1.27
 				}
 				heir_selection = cognatic_primogeniture
+				laws = {
+					medieval_levy_law = broken_weisuo
+				}
 			}
-			court_language = shu_language
+			court_language = northern_mandarin_dialect
 			country_rank = rank_kingdom
 			capital = badong
 			flag = "CXI"
@@ -818,7 +825,7 @@ countries = {
 				# liaodong_area ─ 关宁防线核心
 				ningyuan_jinzhou qiantun
 			}
-			include = "chinese_monarchy"
+			include = "zzz_mng"
 			government = {
 				type = monarchy
 				ruler = chi_wu_san_gui
