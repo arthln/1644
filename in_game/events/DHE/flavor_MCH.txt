@@ -1,1 +1,5 @@
-﻿#删除MCH相关事件
+﻿# Empty override file
+# Original file: events\DHE\flavor_MCH.txt
+# This file disables all events from the original file
+
+namespace = flavor_mch
